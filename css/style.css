@@ -1,0 +1,124 @@
+/* html */
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+/* navbar */
+.navbar{
+  background-color: #101009;
+  color: #838349;
+  opacity: 0.9;
+}
+#navbar-example2{
+  transition: top 0.4s;
+}
+
+/* jumboTron */
+.jumbotron{
+  margin-top: 3.5rem;
+  background-color: #ededde;
+}
+.jumboHead{
+  color: #212112;
+}
+
+/* about */
+.aboutSection{
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  padding-top: 4rem;
+}
+.spanHead{
+  color: #31311b;
+  color: #424224;
+  color: #636336;
+}
+.aboutPara{
+  padding: 2em;
+}
+/* .myImg{
+  border: 3px solid #424224;
+} */
+
+/* skills */
+.skillSection{
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  padding-top: 5rem;
+}
+.javaImg{
+  padding: 5rem;
+}
+
+/* projects */
+.projSection{
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.listStyle{
+  /* border: 1px solid #ccc; */
+  padding: 1rem 0;
+}
+li a{
+  color: #212529;
+}
+li a:hover{
+  color: #636336;
+}
+
+/* footer */
+.footerPadding{
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+  background-color: #212112;
+  color: #ccc;
+}
+.footerIcon{
+  /* font-size: 1.5em; */
+  color: #ccc;
+  padding-right: 0.8em;
+  padding-bottom: 2em;
+}
+small a{
+  color: #ccc;
+}
+small a:hover{
+  color: #ededde;
+}
+
+/* small screen */
+@media (max-width: 576px) {
+  .jumbotron{
+    padding-top: 5em;
+    padding-bottom: 4.5em;
+  }
+  .aboutSection{
+    margin-top: 3rem;
+  }
+  .skillSection, .projSection{
+    margin-top: 2rem;
+    /* margin-bottom: 5rem; */
+    padding-top: 4rem;
+  }
+  /* .projSection{
+    margin-top: 2rem;
+    padding-top: 4rem;
+  } */
+  /* .javaImg{
+    padding: 5em;
+    border-radius: 50%;
+  } */
+  /* .myImg{
+    border: 3px solid #424224;
+    border-radius: 35%;
+  } */
+  /* .skillSection{
+    margin-top: 3rem;
+  } */
+}
